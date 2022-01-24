@@ -1,11 +1,10 @@
 import React, {useState} from "react";
 import { ethers } from "ethers";
-import {CONTRACT_ADDRESS} from "./secret.js"
 import SimpleStore_abi from './contracts/SimpleStore_abi.json';
 
 const SimpleStore = () => {
 
-    const contractAddress = {CONTRACT_ADDRESS}
+    const contractAddress = '0x0060942fA687Cd347006C14223c92C9a94F97881'
     
     const [errorMessage, setErrorMessage] = useState(null);
     const [defaultAccount, setDefaultAccount] = useState(null);

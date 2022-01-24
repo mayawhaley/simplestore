@@ -8,7 +8,7 @@
 - Ganache to create a private Ethereum blockchain to test the DApp.
 #
 
-## How to use
+## How to use - https://mayawhaley.github.io/simplestore/
 
 - Should be run in a browser with a MetaMask extension (Chrome, Firefox, MetaMask app on mobile).
 - Clicking "Connect Wallet" will prompt a MetaMask log in. After connecting, the wallet address will appear on the screen.
