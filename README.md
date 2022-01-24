@@ -6,7 +6,7 @@
 - Ethers.js to interact with the Ethereum blockchain
 - Solidity to write the contract (in Remix Ethereum IDE) 
 - Ganache to create a private Ethereum blockchain to test the DApp.
-#
+
 
 ## How to use - https://mayawhaley.github.io/simplestore/
 
