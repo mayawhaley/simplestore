@@ -15,3 +15,11 @@
 - The user will then be able to update the value, which will prompt MetaMask to confirm the gas fee (this contract is connected to a wallet on my local chain, using Ganache).
 - Clicking "Get Current Value" will display the updated value to the screen.
 
+
+
+
+https://user-images.githubusercontent.com/34068734/150904437-988f36e4-d9bf-4734-a158-e8d491a625f2.mov
+
+
+
+
