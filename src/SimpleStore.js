@@ -4,7 +4,7 @@ import SimpleStore_abi from './contracts/SimpleStore_abi.json';
 
 const SimpleStore = () => {
 
-    const contractAddress = '0x0060942fA687Cd347006C14223c92C9a94F97881'
+    const contractAddress = '0x2aCba12Ca28F1F5BFc978D0601c7AFE4939442b0'
     
     const [errorMessage, setErrorMessage] = useState(null);
     const [defaultAccount, setDefaultAccount] = useState(null);
@@ -53,8 +53,13 @@ const SimpleStore = () => {
 
     // returns storedData
     const getCurrentVal = async () => {
+        try {
         let val = await contract.get()
         setCurrentContractVal(val)
+        } catch (error){
+            throw Error(error)
+        }
+        // console.log(val)
     }
 
     const setHandler = (event) => {
@@ -71,7 +76,7 @@ const SimpleStore = () => {
 
             <div className="contentContainer"> 
                 <div className="contractAddress">
-                    <h3> Contract Address: </h3>
+                    <h3> Wallet: </h3>
                     <div className="bodyText">{defaultAccount} </div>
                 </div>
                 <div className="setContract">
